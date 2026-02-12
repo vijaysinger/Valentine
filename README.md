@@ -6,7 +6,7 @@
     body {
       margin: 0;
       overflow: hidden;
-      background: linear-gradient(to bottom, #ffe6f0, #ffcce6);
+      background: linear-gradient(to bottom, #fff9c4, #fff176); /* soft yellow gradient */
       font-family: Arial, sans-serif;
       text-align: center;
     }
@@ -54,15 +54,4 @@
     /* Floating hearts */
     .heart {
       position: absolute;
-      color: pink;
-      font-size: 20px;
-      animation: float 6s linear infinite;
-    }
-
-    @keyframes float {
-      0% {
-        transform: translateY(100vh) scale(1);
-        opacity: 1;
-      }
-      100% {
-        transform: translateY(-10vh) scale(1.5);
+      color:
