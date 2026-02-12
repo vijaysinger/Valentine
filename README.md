@@ -53,7 +53,7 @@
 
     function showNo() {
       document.getElementById("response").innerHTML =
-        "<h2>Hmm… I might have to try harder then 😏</h2><img src='PASTE_NO_GIF_LINK_HERE'>";
+        "<h2>Hmm… I might have to try harder then 😏</h2><img src='https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyNGY3eDQ0dHg5b3V5cTIzNmJhZzZjZHQ4ajMwdTlnMHRjN2ZhcGFjciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xM3ptQtRagYCs/giphy.gif";
     }
   </script>
 
