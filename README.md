@@ -47,7 +47,8 @@
   <script>
     function showYes() {
       document.getElementById("response").innerHTML =
-        "<h2>Okayyyy I see you 😌💘</h2><img src='PASTE_YES_GIF_LINK_HERE'>";
+        "<h2>Okayyyy I see you 😌💘</h2><img src='https://media1.tenor.com/m/CGQOSjUZ6ggAAAAd/corazon-de-minion-minion.gif![image](https://github.com/user-attachments/assets/c02ec5c1-327e-4513-bdff-a788041ffee9)
+'>";
     }
 
     function showNo() {
