@@ -1,61 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Be My Valentine?</title>
+  <title>Be My Valentine? 💖</title>
   <style>
     body {
-      text-align: center;
+      margin: 0;
+      overflow: hidden;
+      background: linear-gradient(to bottom, #ffe6f0, #ffcce6);
       font-family: Arial, sans-serif;
-      background-color: #ffe6f0;
-      margin-top: 100px;
+      text-align: center;
     }
+
     h1 {
-      color: #ff3366;
+      margin-top: 100px;
+      color: #ff3399;
+      font-size: 32px;
     }
+
     button {
       padding: 12px 25px;
       font-size: 18px;
       margin: 10px;
       border: none;
-      border-radius: 10px;
+      border-radius: 12px;
       cursor: pointer;
+      transition: 0.3s;
     }
+
     #yesBtn {
       background-color: #ff66b2;
       color: white;
     }
+
+    #yesBtn:hover {
+      background-color: #ff3385;
+    }
+
     #noBtn {
       background-color: #999;
       color: white;
     }
+
     img {
       margin-top: 20px;
-      width: 300px;
+      width: 280px;
       border-radius: 15px;
     }
-  </style>
-</head>
-<body>
 
-  <h1>Will You Be My Valentine? 💖</h1>
-
-  <button id="yesBtn" onclick="showYes()">Yes 😊</button>
-  <button id="noBtn" onclick="showNo()">No 🙈</button>
-
-  <div id="response"></div>
-
-  <script>
-    function showYes() {
-      document.getElementById("response").innerHTML =
-        "<h2>Okayyyy I see you 😌💘</h2><img src='https://media1.tenor.com/m/CGQOSjUZ6ggAAAAd/corazon-de-minion-minion.gif![image](https://github.com/user-attachments/assets/c02ec5c1-327e-4513-bdff-a788041ffee9)
-'>";
+    #response {
+      margin-top: 20px;
     }
 
-    function showNo() {
-      document.getElementById("response").innerHTML =
-        "<h2>Hmm… I might have to try harder then 😏</h2><img src='https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyNGY3eDQ0dHg5b3V5cTIzNmJhZzZjZHQ4ajMwdTlnMHRjN2ZhcGFjciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xM3ptQtRagYCs/giphy.gif";
+    /* Floating hearts */
+    .heart {
+      position: absolute;
+      color: pink;
+      font-size: 20px;
+      animation: float 6s linear infinite;
     }
-  </script>
 
-</body>
-</html>
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.5);
